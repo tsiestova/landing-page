@@ -14,7 +14,7 @@
 ### Links
 
 - Source code URL: [Add solution URL here](https://github.com/tsiestova/landing-page)
-- Demo: [Add live site URL here](https://your-live-site-url.com)
+- Demo: [Add live site URL here](https://landing-page-beryl-six.vercel.app/)
 
 ### Built with
  
