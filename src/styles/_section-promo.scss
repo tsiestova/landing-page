@@ -1,0 +1,97 @@
+@import "functions";
+
+.main-content {
+  margin-bottom: 84px;
+
+  @include breakpoint(tablet) {
+    margin-bottom: 86px;
+  }
+
+  @include breakpoint(desktop) {
+    margin-bottom: 140px;
+  }
+}
+
+.main-img {
+  width: 327px;
+  height: 301px;
+  display: block;
+  margin: 0 auto 58px;
+
+  @include breakpoint(tablet) {
+    position: absolute;
+    right: -288px;
+    top: -65px;
+    width: 682px;
+    height: 669px;
+    overflow: hidden;
+  }
+
+  @include breakpoint(desktop) {
+    right: -307px;
+    top: -144px;
+    width: 991.63px;
+    height: 936.92px;
+  }
+}
+
+.main-img img {
+  width: 100%;
+  height: 100%;
+
+  @include breakpoint(tablet) {
+    display: block;
+    object-fit: cover;
+  }
+}
+
+.main-content__heading {
+  color: var(--color2);
+  margin-bottom: 26px;
+
+  @include breakpoint(desktop) {
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 71px;
+  }
+}
+
+.main-content__text {
+  color: var(--color3);
+  margin-bottom: 24px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+
+  @include breakpoint(desktop) {
+    margin-bottom: 42px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+
+.main-content__wrap {
+  margin-bottom: 54px;
+
+  @include breakpoint(tablet) {
+    width: calc(100% - 285px);
+  }
+
+  @include breakpoint(desktop) {
+    width: calc(100% - 650px);
+  }
+}
+
+@include breakpoint(tablet) {
+}
+.main-content__promo {
+  @include breakpoint(tablet) {
+    margin-bottom: 210px;
+  }
+
+  @include breakpoint(desktop) {
+    margin-bottom: 252px;
+  }
+}
