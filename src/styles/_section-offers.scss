@@ -1,0 +1,133 @@
+@import "functions";
+
+.section-offer {
+  background-color: var(--color6);
+  box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+  border-radius: 10px;
+  margin-bottom: 45px;
+  padding: 56px 29px 28px;
+  position: relative;
+
+  @include breakpoint(tablet) {
+    padding: 56px 24px 32px 31px;
+    margin-bottom: 0;
+  }
+
+  @include breakpoint(desktop) {
+    padding: 61px 31px 44px 38px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+.card-link {
+  text-decoration: none;
+  color: var(--color4);
+}
+
+.section-offer:before {
+  content: "";
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  left: 28px;
+  top: -25px;
+}
+
+.section-offer__animation {
+  &:before {
+    background-image: url("./assets/icon-animation.svg");
+  }
+}
+
+.section-offer__design {
+  &:before {
+    background-image: url("./assets/icon-design.svg");
+  }
+}
+
+.section-offer__photography {
+  &:before {
+    background-image: url("./assets/icon-photography.svg");
+  }
+}
+
+.section-offer__crypto {
+  &:before {
+    background-image: url("./assets/icon-crypto.svg");
+  }
+}
+
+.section-offer__business {
+  &:before {
+    background-image: url("./assets/icon-business.svg");
+  }
+}
+
+.section-offer__heading {
+  background: var(--gradient1);
+  color: var(--color6);
+  border-radius: 10px;
+  padding: 26px 28px 34px;
+  margin-bottom: 42px;
+
+  @include breakpoint(tablet) {
+    margin-bottom: 0px;
+    padding: 56px 24px 32px 31px;
+  }
+
+  @include breakpoint(desktop) {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 0;
+  }
+}
+
+.card-heading {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 25px;
+  color: var(--color2);
+  margin-bottom: 17px;
+
+  @include breakpoint(desktop) {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 21px;
+  }
+}
+
+.card-text {
+  overflow: hidden;
+  color: var(--color3);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 22px;
+
+  @include breakpoint(desktop) {
+    margin-bottom: 28px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+
+.section-offers__list {
+  @include breakpoint(tablet) {
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    grid-gap: 6px;
+    grid-column-gap: 11px;
+    grid-row-gap: 58px;
+  }
+
+  @include breakpoint(desktop) {
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 73px;
+  }
+}

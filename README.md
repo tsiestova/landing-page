@@ -9,15 +9,15 @@
 
 ### Screenshot
  
-![](./screenshot.jpg)
+![](./screenshot.png)
 
 ### Links
 
-- Source code URL: [Add solution URL here](https://your-solution-url.com)
+- Source code URL: [Add solution URL here](https://github.com/tsiestova/landing-page)
 - Demo: [Add live site URL here](https://your-live-site-url.com)
 
 ### Built with
-
+ 
 - Semantic HTML5 markup
 - SCSS properties
 - Flexbox

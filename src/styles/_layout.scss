@@ -1,0 +1,25 @@
+@import "functions";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--main-font);
+  background: var(--main-color);
+}
+
+.layout {
+  padding: 0 16px;
+
+  @include breakpoint(tablet) {
+    padding: 0 39px;
+  }
+
+  @include breakpoint(desktop) {
+    max-width: 1188px;
+    margin: auto;
+  }
+}
