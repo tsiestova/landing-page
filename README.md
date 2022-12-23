@@ -1,18 +1,14 @@
-## Table of contents
-
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-  - [Built with](#built-with)
-
- 
-### Screenshot
- 
-![](./screenshot.png)
 
 ### Links
 
 - Source code URL: [source code](https://github.com/tsiestova/landing-page)
 - Demo: [live site](https://landing-page-beryl-six.vercel.app/)
+
+
+### Screenshot
+
+![](./screenshot.png)
+
 
 ### Built with 
  
