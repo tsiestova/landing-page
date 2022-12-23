@@ -14,9 +14,10 @@
  
 - Semantic HTML5 markup
 - SCSS properties
+- Webpack
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
+- Mobile-first workflow 
 
 
 
